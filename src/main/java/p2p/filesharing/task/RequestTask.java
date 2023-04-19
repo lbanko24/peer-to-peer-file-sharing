@@ -1,4 +1,4 @@
-package task;
+package p2p.filesharing.task;
 
 import java.io.IOException;
 import java.net.DatagramPacket;
