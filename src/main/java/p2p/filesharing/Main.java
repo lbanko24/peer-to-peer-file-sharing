@@ -16,6 +16,10 @@ import java.util.Optional;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
+import task.DownloadTask;
+import task.SendTask;
+import task.WriteTask;
+
 public class Main {
 	private static final int PIECE_SIZE = 512;
 	private static final int WORKERS = 1;

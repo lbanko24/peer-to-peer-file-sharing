@@ -1,9 +1,12 @@
-package p2p.filesharing;
+package task;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.net.DatagramSocket;
 import java.util.List;
+
+import p2p.filesharing.Main;
+import p2p.filesharing.Peer;
 
 public class WriteTask implements Runnable {
 	

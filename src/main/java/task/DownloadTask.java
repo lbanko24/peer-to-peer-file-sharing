@@ -1,7 +1,9 @@
-package p2p.filesharing;
+package task;
 
 import java.net.DatagramSocket;
 import java.util.List;
+
+import p2p.filesharing.Peer;
 
 public class DownloadTask implements Runnable {
 
